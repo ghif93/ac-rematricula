@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+:root {
+  line-height: 1.5;
+}
+*{
+    font-family: "Roboto", sans-serif;
+}
+h1, h2, h3, h4, h5, figure, p, ol, ul {
+  margin: 0;
+}
+
+ol, ul {
+  list-style: none;
+  padding-inline: 0;
+}
+
+h1, h2, h3, h4, h5 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+img {
+  display: block;
+  max-inline-size: 100%;
+}
+
+#infos1{
+    background-color:#C30C0E ;
+    color: #fff;
+}
+.container {
+    max-width: 800px;
+
+    margin: 0 auto;
+  }
+.container h2{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.infos{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+ 
+}
+.col{
+    flex: 1;
+    padding-top: 2.5rem;
+    padding-left: 1.5rem;
+    padding-right: 2.5rem;
+    padding-bottom: 2.5rem;
+    font-size: 1rem;
+    line-height: 1.5em;
+    min-height: 1.5em;
+}
+
+.img-section{
+    height: 207px;
+    
+    background-size: cover;
+    background-position: center;
+
+}
+#img1{
+    background-image: url("img/ca6b7e85-c0ae-4c21-a17c-c12f28002b9d.png");
+}
+#img2{
+    background-image: url("img/655c5bf1-b809-4dff-abaa-9fbeed7b2aa4.png");
+}
+#infos2{
+    background-color:#98DAE4 ;
+    color: #1D3070;
+}
+
+#gifts{
+    background-color: #1D3070;
+    color: #fff;
+}
+#gifts p,h2{
+    padding: 20px 0 20px 0;
+}
+#img3{
+    border-radius: 2rem;
+    
+}
+
+#l7{
+    margin: 0 auto;
+    width: 30%;
+}
+#infos-importantes{
+    background-color: #1D3070;
+    color: #fff;
+}
+#info-table{
+    border: #fff;
+}
+#info-table ul>li{
+    padding-bottom: 1.5em;
+
+}
