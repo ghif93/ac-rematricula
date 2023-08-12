@@ -145,7 +145,7 @@ img {
 }
 
 #rodape{
-    padding: 25px;
+    padding: 10px;
 }
 #rodape>.container{
     display: flex;
@@ -210,10 +210,11 @@ img {
     .container{
         padding-left: 10px;
         padding-right: 10px;
-        padding-bottom: 10px;
+        padding-bottom: 25px;
     }
     #l7{
         width: 45%;
+        padding-bottom: 1em;
     }
     .col{
         padding: 40px 15px 0 15px;
